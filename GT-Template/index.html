@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template WS</title>
+
+    <script
+      defer
+      src="https://kit.fontawesome.com/407b7a1280.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row justify-content-between align-items-center top-header">
+          <div class="col-5 mini-logo">
+            <a href="#">
+              <div class="image-wrapper">
+                <img src="./assets/img/logo-mini.webp" alt="logo of company" />
+              </div>
+            </a>
+          </div>
+          <div class="col-5">
+            <a href="#">
+              <div class="image-wrapper logo">
+                <img
+                  src="./assets/img/logo-w-text.webp"
+                  alt="logo of company"
+                />
+              </div>
+            </a>
+          </div>
+          <div class="col-6">
+            <div class="icon-box d-flex justify-content-end align-items-center">
+              <a href="#" class="hover-cc primary">
+                Find your local member firm
+              </a>
+              <a href="#"><i class="fas fa-bookmark primary hover-cc"></i></a>
+              <a href="#"
+                ><i class="fas fa-globe-europe primary hover-cc"></i>
+              </a>
+              <a href="#"><i class="fas fa-search primary hover-cc"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid px-0">
+        <div class="bot-header">
+          <div class="container">
+            <div class="row">
+              <div class="col-5">
+                <nav class="d-flex justify-content-between">
+                  <a href="#" class="primary hover-cc menu-act"> About Us </a>
+                  <a href="#" class="primary hover-cc menu-act"> Locations </a>
+                  <a
+                    href="#"
+                    class="primary hover-cc menu-act"
+                    data-show="services"
+                  >
+                    Services
+                  </a>
+                  <div class="menu services d-flex" data-toggle="services-menu">
+                    <div class="col-4 gray-bg">
+                      <div
+                        class="wrapper d-flex flex-column align-items-end px-5"
+                      >
+                        <a
+                          href="#"
+                          class="primary hover-cc sub-act"
+                          data-toggle="advisory-menu"
+                          >Advisory</a
+                        >
+                        <a
+                          href="#"
+                          class="primary hover-cc sub-act"
+                          data-toggle="assurance-menu"
+                          >Assurance</a
+                        >
+                        <a
+                          href="#"
+                          class="primary hover-cc sub-act"
+                          data-toggle="tax-menu"
+                          >Tax</a
+                        >
+                      </div>
+                    </div>
+
+                    <div
+                      class="
+                        col-8
+                        advisory-menu
+                        sub-menu
+                        lightgray-bg
+                        d-flex d-none
+                      "
+                    >
+                      <div class="col-4">
+                        <div
+                          class="
+                            wrapper
+                            d-flex
+                            flex-column
+                            align-items-start
+                            px-5
+                            ms-5
+                          "
+                        >
+                          <p class="title">Advisory</p>
+                          <a href="#" class="primary hover-cc"
+                            >Business consulting services</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Business process solutions</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Business risk services</a
+                          >
+                          <a href="#" class="primary hover-cc">Cybersecurity</a>
+                          <a href="#" class="primary hover-cc"
+                            >Forensic and investigation services</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Mergers and acquisitions</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Recovery and reorganisation</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Transactional advisory services</a
+                          >
+                          <a href="#" class="primary hover-cc">Valuations</a>
+                        </div>
+                      </div>
+                      <div class="col-8 p-5 ms-5">
+                        <div class="main-card">
+                          <div class="image-wrapper">
+                            <img
+                              src="./assets/img/client-behaviour-300x300.jpg"
+                              alt="Formula driver"
+                            />
+                          </div>
+                          <div class="text-wrapper p-4">
+                            <div class="card-tag darkgray">
+                              BUSINESS RESILENCE
+                            </div>
+                            <a href="#">
+                              <p class="fs-2 primary my-4 fw-600">
+                                Returning your business
+                              </p>
+                            </a>
+
+                            <br />
+                            <p class="card-info mt-5">
+                              Lorem ipsum dolor sit amet consectetur,
+                              adipisicing elit. Quis, temporibus?
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-8 assurance-menu sub-menu lightgray-bg d-flex"
+                    >
+                      <div class="col-4">
+                        <div
+                          class="
+                            wrapper
+                            d-flex
+                            flex-column
+                            align-items-start
+                            px-5
+                            ms-5
+                          "
+                        >
+                          <p class="title">Assurance</p>
+                          <a href="#" class="primary hover-cc"
+                            >Business consulting services</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Business process solutions</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Business risk services</a
+                          >
+                          <a href="#" class="primary hover-cc">Cybersecurity</a>
+                          <a href="#" class="primary hover-cc"
+                            >Forensic and investigation services</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Mergers and acquisitions</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Recovery and reorganisation</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Transactional advisory services</a
+                          >
+                          <a href="#" class="primary hover-cc">Valuations</a>
+                        </div>
+                      </div>
+                      <div class="col-8 p-5 ms-5">
+                        <div class="main-card">
+                          <div class="image-wrapper">
+                            <img
+                              src="./assets/img/client-behaviour-300x300.jpg"
+                              alt="Formula driver"
+                            />
+                          </div>
+                          <div class="text-wrapper p-4">
+                            <div class="card-tag darkgray">
+                              BUSINESS RESILENCE
+                            </div>
+                            <a href="#">
+                              <p class="fs-2 primary my-4 fw-600">
+                                Returning your business
+                              </p>
+                            </a>
+
+                            <br />
+                            <p class="card-info mt-5">
+                              Lorem ipsum dolor sit amet consectetur,
+                              adipisicing elit. Quis, temporibus?
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-8 tax-menu sub-menu lightgray-bg d-flex d-none"
+                    >
+                      <div class="col-4">
+                        <div
+                          class="
+                            wrapper
+                            d-flex
+                            flex-column
+                            align-items-start
+                            px-5
+                            ms-5
+                          "
+                        >
+                          <p class="title">Tax</p>
+                          <a href="#" class="primary hover-cc"
+                            >Business consulting services</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Business process solutions</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Business risk services</a
+                          >
+                          <a href="#" class="primary hover-cc">Cybersecurity</a>
+                          <a href="#" class="primary hover-cc"
+                            >Forensic and investigation services</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Mergers and acquisitions</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Recovery and reorganisation</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Transactional advisory services</a
+                          >
+                          <a href="#" class="primary hover-cc">Valuations</a>
+                        </div>
+                      </div>
+                      <div class="col-8 p-5 ms-5">
+                        <div class="main-card">
+                          <div class="image-wrapper">
+                            <img
+                              src="./assets/img/client-behaviour-300x300.jpg"
+                              alt="Formula driver"
+                            />
+                          </div>
+                          <div class="text-wrapper p-4">
+                            <div class="card-tag darkgray">
+                              BUSINESS RESILENCE
+                            </div>
+                            <a href="#">
+                              <p class="fs-2 primary my-4 fw-600">
+                                Returning your business
+                              </p>
+                            </a>
+
+                            <br />
+                            <p class="card-info mt-5">
+                              Lorem ipsum dolor sit amet consectetur,
+                              adipisicing elit. Quis, temporibus?
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="primary hover-cc menu-act"
+                    data-show="industries"
+                  >
+                    Industries
+                  </a>
+                  <div
+                    class="menu industries d-flex"
+                    data-toggle="services-menu"
+                  >
+                    <div class="col-4 gray-bg">
+                      <div
+                        class="wrapper d-flex flex-column align-items-end px-5"
+                      >
+                        <a
+                          href="#"
+                          class="primary hover-cc sub-act"
+                          data-toggle="advisoryInd-menu"
+                          >Advisory-Ind</a
+                        >
+                        <a
+                          href="#"
+                          class="primary hover-cc sub-act"
+                          data-toggle="assuranceInd-menu"
+                          >Assurance-Ind</a
+                        >
+                        <a
+                          href="#"
+                          class="primary hover-cc sub-act"
+                          data-toggle="taxInd-menu"
+                          >Tax-Ind</a
+                        >
+                      </div>
+                    </div>
+
+                    <div
+                      class="
+                        col-8
+                        advisoryInd-menu
+                        sub-menu
+                        lightgray-bg
+                        d-flex d-none
+                      "
+                    >
+                      <div class="col-4">
+                        <div
+                          class="
+                            wrapper
+                            d-flex
+                            flex-column
+                            align-items-start
+                            px-5
+                            ms-5
+                          "
+                        >
+                          <p class="title">Advisory</p>
+                          <a href="#" class="primary hover-cc"
+                            >Business consulting services</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Business process solutions</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Business risk services</a
+                          >
+                          <a href="#" class="primary hover-cc">Cybersecurity</a>
+                          <a href="#" class="primary hover-cc"
+                            >Forensic and investigation services</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Mergers and acquisitions</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Recovery and reorganisation</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Transactional advisory services</a
+                          >
+                          <a href="#" class="primary hover-cc">Valuations</a>
+                        </div>
+                      </div>
+                      <div class="col-8 p-5 ms-5">
+                        <div class="main-card">
+                          <div class="image-wrapper">
+                            <img
+                              src="./assets/img/client-behaviour-300x300.jpg"
+                              alt="Formula driver"
+                            />
+                          </div>
+                          <div class="text-wrapper p-4">
+                            <div class="card-tag darkgray">
+                              BUSINESS RESILENCE
+                            </div>
+                            <a href="#">
+                              <p class="fs-2 primary my-4 fw-600">
+                                Returning your business
+                              </p>
+                            </a>
+
+                            <br />
+                            <p class="card-info mt-5">
+                              Lorem ipsum dolor sit amet consectetur,
+                              adipisicing elit. Quis, temporibus?
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="
+                        col-8
+                        assuranceInd-menu
+                        sub-menu
+                        lightgray-bg
+                        d-flex
+                      "
+                    >
+                      <div class="col-4">
+                        <div
+                          class="
+                            wrapper
+                            d-flex
+                            flex-column
+                            align-items-start
+                            px-5
+                            ms-5
+                          "
+                        >
+                          <p class="title">Assurance</p>
+                          <a href="#" class="primary hover-cc"
+                            >Business consulting services</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Business process solutions</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Business risk services</a
+                          >
+                          <a href="#" class="primary hover-cc">Cybersecurity</a>
+                          <a href="#" class="primary hover-cc"
+                            >Forensic and investigation services</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Mergers and acquisitions</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Recovery and reorganisation</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Transactional advisory services</a
+                          >
+                          <a href="#" class="primary hover-cc">Valuations</a>
+                        </div>
+                      </div>
+                      <div class="col-8 p-5 ms-5">
+                        <div class="main-card">
+                          <div class="image-wrapper">
+                            <img
+                              src="./assets/img/client-behaviour-300x300.jpg"
+                              alt="Formula driver"
+                            />
+                          </div>
+                          <div class="text-wrapper p-4">
+                            <div class="card-tag darkgray">
+                              BUSINESS RESILENCE
+                            </div>
+                            <a href="#">
+                              <p class="fs-2 primary my-4 fw-600">
+                                Returning your business
+                              </p>
+                            </a>
+
+                            <br />
+                            <p class="card-info mt-5">
+                              Lorem ipsum dolor sit amet consectetur,
+                              adipisicing elit. Quis, temporibus?
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="
+                        col-8
+                        taxInd-menu
+                        sub-menu
+                        lightgray-bg
+                        d-flex d-none
+                      "
+                    >
+                      <div class="col-4">
+                        <div
+                          class="
+                            wrapper
+                            d-flex
+                            flex-column
+                            align-items-start
+                            px-5
+                            ms-5
+                          "
+                        >
+                          <p class="title">Tax</p>
+                          <a href="#" class="primary hover-cc"
+                            >Business consulting services</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Business process solutions</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Business risk services</a
+                          >
+                          <a href="#" class="primary hover-cc">Cybersecurity</a>
+                          <a href="#" class="primary hover-cc"
+                            >Forensic and investigation services</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Mergers and acquisitions</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Recovery and reorganisation</a
+                          >
+                          <a href="#" class="primary hover-cc"
+                            >Transactional advisory services</a
+                          >
+                          <a href="#" class="primary hover-cc">Valuations</a>
+                        </div>
+                      </div>
+                      <div class="col-8 p-5 ms-5">
+                        <div class="main-card">
+                          <div class="image-wrapper">
+                            <img
+                              src="./assets/img/client-behaviour-300x300.jpg"
+                              alt="Formula driver"
+                            />
+                          </div>
+                          <div class="text-wrapper p-4">
+                            <div class="card-tag darkgray">
+                              BUSINESS RESILENCE
+                            </div>
+                            <a href="#">
+                              <p class="fs-2 primary my-4 fw-600">
+                                Returning your business
+                              </p>
+                            </a>
+
+                            <br />
+                            <p class="card-info mt-5">
+                              Lorem ipsum dolor sit amet consectetur,
+                              adipisicing elit. Quis, temporibus?
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="#" class="primary hover-cc menu-act"> Insights </a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="breadcrumb-slider">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="swiper main-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="text-wrapper">
+                      <p class="fs-3 fw-600">Lorem Ipsum Dolar</p>
+                      <p class="info">Take an action today!</p>
+                      <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="text-wrapper">
+                      <p class="fs-3 fw-600">Lorem Ipsum Dolar</p>
+                      <p class="info">Take an action today!</p>
+                      <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="text-wrapper">
+                      <p class="fs-3 fw-600">Lorem Ipsum Dolar</p>
+                      <p class="info">Take an action today!</p>
+                      <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="text-wrapper">
+                      <p class="fs-3 fw-600">Lorem Ipsum Dolar</p>
+                      <p class="info">Take an action today!</p>
+                      <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
